@@ -1,17 +1,16 @@
-export const APP_LOGO = "src/assets/images/r_logo.png";
-export const HERO_RESUME = "src/assets/images/hero_resume.png";
-export const RESUME_BUILDER_AWARD =
-  "src/assets/images/resume_builder_award.png";
-export const SWIRL_UP_ARROW = "src/assets/icons/up-arrow.png";
-export const CLIENT_COMMENT = "src/assets/images/client-comment.png";
-export const CUSTOMER_REVIEW = "src/assets/images/customer-review.png";
+export const APP_LOGO = "./assets/images/r_logo.png";
+export const HERO_RESUME = "public/assets/images/hero_resume.png";
+export const RESUME_BUILDER_AWARD = "public/assets/images/resume_builder_award.png";
+export const SWIRL_UP_ARROW = "public/assets/icons/up-arrow.png";
+export const CLIENT_COMMENT = "public/assets/images/client-comment.png";
+export const CUSTOMER_REVIEW = "public/assets/images/customer-review.png";
 
-export const MENU_ICON = "src/assets/icons/menu.png"
-export const MENU_CLOSE = "src/assets/icons/close.png"
+export const MENU_ICON = "public/assets/icons/menu.png"
+export const MENU_CLOSE = "public/assets/icons/close.png"
 
-export const PLUS = "src/assets/icons/plus.png";
-export const MINUS = "src/assets/icons/minus.png";
-export const TEMPLATES = "src/assets/images/templates.png";
+export const PLUS = "public/assets/icons/plus.png";
+export const MINUS = "public/assets/icons/minus.png";
+export const TEMPLATES = "public/assets/images/templates.png";
 
 export const MENU_ITEMS = [
   "Home",
@@ -20,26 +19,26 @@ export const MENU_ITEMS = [
 ];
 
 export const PROFILES = [
-  "src/assets/icons/girl-profile.png",
-  "src/assets/icons/specs-profile.png",
-  "src/assets/icons/woman-profile.png",
-  "src/assets/icons/boy-profile.png",
+  "public/assets/icons/girl-profile.png",
+  "public/assets/icons/specs-profile.png",
+  "public/assets/icons/woman-profile.png",
+  "public/assets/icons/boy-profile.png",
 ];
 
 export const FEATURES = [
   {
     id: 1,
-    src: "src/assets/images/create-quickly.png",
+    src: "public/assets/images/create-quickly.png",
     title: "Create Quickly",
   },
   {
     id: 2,
-    src: "src/assets/images/customize-easily.png",
+    src: "public/assets/images/customize-easily.png",
     title: "Customize Easily",
   },
   {
     id: 3,
-    src: "src/assets/images/download-n-share.png",
+    src: "public/assets/images/download-n-share.png",
     title: "Download & Share",
   },
 ];
@@ -69,28 +68,28 @@ export const TOOLS = [
   {
     id: 1,
     bgColor: "bg-[#c5abcc]",
-    icon: "src/assets/icons/resume.png",
+    icon: "public/assets/icons/resume.png",
     title: "Resume Builder",
     subhead: "Say Goodbye to Dull Resumes, Say Hello to Stunning Designs.",
   },
   {
     id: 2,
     bgColor: "bg-[#61b9b3]",
-    icon: "src/assets/icons/cv.png",
+    icon: "public/assets/icons/cv.png",
     title: "Cover Letter",
     subhead: "Need a Matching Cover Letter? We Have You Covered 😉",
   },
   {
     id: 3,
     bgColor: "bg-[#b2c1d5]",
-    icon: "src/assets/icons/job-hunting.png",
+    icon: "public/assets/icons/job-hunting.png",
     title: "Job Tracker",
     subhead: "Effortlessly Manage & Streamline Your Application Journey.",
   },
   {
     id: 4,
     bgColor: "bg-[#ebb4b9]",
-    icon: "src/assets/icons/website.png",
+    icon: "public/assets/icons/website.png",
     title: "Personal Website",
     subhead: "Own a Personal Website with Your Domain in a Snap.",
   },
@@ -122,8 +121,8 @@ export const TEMPLATES_LIST = [
 ];
 
 export const SOCIALS = [
-  "src/assets/icons/whatsapp.png",
-  "src/assets/icons/linkedin.png",
-  "src/assets/icons/twitter.png",
-  "src/assets/icons/reddit.png",
+  "public/assets/icons/whatsapp.png",
+  "public/assets/icons/linkedin.png",
+  "public/assets/icons/twitter.png",
+  "public/assets/icons/reddit.png",
 ];
