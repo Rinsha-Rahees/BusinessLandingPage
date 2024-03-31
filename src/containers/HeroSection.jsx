@@ -3,6 +3,7 @@ import {
   CLIENT_COMMENT,
   HERO_RESUME,
   CUSTOMER_REVIEW,
+  RESUME_BUILDER_AWARD,
 } from "../utils/Constants";
 import ActionButtonStyle from "../utils/ActionButtonStyle";
 
@@ -12,7 +13,7 @@ function HeroSection() {
       <div className="Hero-Desc flex flex-col items-center md:items-start justify-center w-full mr-4 lg:mr-32 mt-12 md:mt-0">
         <img
           className="w-44 h-fit"
-          src="src/assets/images/resume_builder_award.png"
+          src={RESUME_BUILDER_AWARD}
           alt="Resume builder of the year badge"
         />
         <h1 className="text-5xl md:text-7xl text-center md:text-left py-8">Unlock Your Dream Career</h1>
