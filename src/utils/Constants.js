@@ -1,6 +1,6 @@
-export const APP_LOGO = "./assets/images/r_logo.png";
-export const HERO_RESUME = "public/assets/images/hero_resume.png";
-export const RESUME_BUILDER_AWARD = "public/assets/images/resume_builder_award.png";
+export const APP_LOGO = "/images/r_logo.png";
+export const HERO_RESUME = "/images/hero_resume.png";
+export const RESUME_BUILDER_AWARD = "/images/award.png";
 export const SWIRL_UP_ARROW = "public/assets/icons/up-arrow.png";
 export const CLIENT_COMMENT = "public/assets/images/client-comment.png";
 export const CUSTOMER_REVIEW = "public/assets/images/customer-review.png";
