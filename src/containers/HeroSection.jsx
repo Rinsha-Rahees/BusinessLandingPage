@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  CLIENT_COMMENT,
-  HERO_RESUME,
-  CUSTOMER_REVIEW,
-  RESUME_BUILDER_AWARD,
-} from "../utils/Constants";
+import IMAGES from "../images/Images";
 import ActionButtonStyle from "../utils/ActionButtonStyle";
 
 function HeroSection() {
@@ -13,7 +8,7 @@ function HeroSection() {
       <div className="Hero-Desc flex flex-col items-center md:items-start justify-center w-full mr-4 lg:mr-32 mt-12 md:mt-0">
         <img
           className="w-44 h-fit"
-          src={RESUME_BUILDER_AWARD}
+          src={IMAGES?.award}
           alt="Resume builder of the year badge"
         />
         <h1 className="text-5xl md:text-7xl text-center md:text-left py-8">Unlock Your Dream Career</h1>
@@ -30,12 +25,12 @@ function HeroSection() {
         <div className="flex flex-col md:flex-row items-center w-full font-bold text-xl mt-12">
           <img
             className="w-72 mr-12"
-            src={CLIENT_COMMENT}
+            src={IMAGES?.client_comment}
             alt="Comment from a client - 5 star rating"
           />
           <img
             className="w-72"
-            src={CUSTOMER_REVIEW}
+            src={IMAGES?.customer_review}
             alt="Comment from a client - 5 star rating"
           />
         </div>
@@ -43,7 +38,7 @@ function HeroSection() {
       <div className="Hero-Resume-Section flex w-fit h-fit bg-black shadow-2xl p-3 rounded-lg">
         <img
           className="w-full h-fit"
-          src={HERO_RESUME}
+          src={IMAGES?.hero_resume}
           alt="Demo resume with pastel blue and pink theme"
         />
       </div>

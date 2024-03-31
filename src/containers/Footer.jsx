@@ -1,5 +1,6 @@
 import React from "react";
-import { APP_LOGO, CAREER_TOOLS_LIST, SOCIALS, TEMPLATES_LIST } from "../utils/Constants";
+import { CAREER_TOOLS_LIST, TEMPLATES_LIST } from "../utils/Constants";
+import IMAGES from "../images/Images"
 
 function Footer() {
   return (
@@ -17,7 +18,7 @@ function Footer() {
             <button className="bottom-0 w-fit right-0 -ml-12 mr-4">
               <img
                 className="w-8"
-                src="src/assets/icons/send.png"
+                src={IMAGES?.send}
                 alt="Send Icon"
               />
             </button>
@@ -27,7 +28,7 @@ function Footer() {
         <div className="flex justify-between items-start text-xl my-20">
           <img
             className="w-24 md:w-44 h-fit mt-2"
-            src={APP_LOGO}
+            src={IMAGES?.app_logo}
             alt="logo - A crescent moon like arc engulfing the half of capital case alphabet R"
           />
           <p className="ml-12">
@@ -61,7 +62,7 @@ function Footer() {
         </div>
 
         <div className="flex justify-between w-1/2 mb-20">
-          {SOCIALS.map((url) => <button key={url} className="p-2" ><img src={url} className="w-8" alt="Social Media Icon"/></button>)}
+          {IMAGES.socials.map((url) => <button key={url} className="p-2" ><img src={url} className="w-8" alt="Social Media Icon"/></button>)}
         </div>
 
 

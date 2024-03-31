@@ -1,13 +1,13 @@
 import React from "react";
-import { TEMPLATES } from "../utils/Constants";
 import ActionButtonStyle from "../utils/ActionButtonStyle";
+import IMAGES from "../images/Images";
 
 function CustomizableTemplates() {
   return (
     <div className="flex flex-col-reverse lg:flex-row w-full h-fit lg:justify-between items-start mt-10 lg:mt-20">
       <div className="flex w-full -m-14">
         <img 
-        src={TEMPLATES} 
+        src={IMAGES?.templates} 
         alt="Image of template collection" />
       </div>
       <div className="flex flex-col items-center text-center lg:items-start lg:justify-center lg:text-left w-full h-full lg:w-[70%] lg:pl-36 mb-32">
