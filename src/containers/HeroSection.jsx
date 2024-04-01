@@ -4,7 +4,8 @@ import ActionButtonStyle from "../utils/ActionButtonStyle";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col-reverse md:flex-row md:justify-between w-full h-fit mt-36 md:mt-44">
+    <div id="home"
+    className="flex flex-col-reverse md:flex-row md:justify-between w-full h-fit mt-36 md:mt-44">
       <div className="Hero-Desc flex flex-col items-center md:items-start justify-center w-full mr-4 lg:mr-32 mt-12 md:mt-0">
         <img
           className="w-44 h-fit"
@@ -21,7 +22,9 @@ function HeroSection() {
           stunning resumes, get invaluable feedback, and share your story with
           the world. Your next big career move starts now.
         </p>
+        <button>
         <ActionButtonStyle>Take Action - It's Free ✨</ActionButtonStyle>
+        </button>
         <div className="flex flex-col md:flex-row items-center w-full font-bold text-xl mt-12">
           <img
             className="w-72 mr-12"

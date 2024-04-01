@@ -7,7 +7,7 @@ function Footer() {
     <div className="flex flex-col items-center w-full bg-[#200e32] text-[#f0eeeb]">
       <div className="flex flex-col items-center w-full h-fit max-w-[95vw] p-3">
         <div className="flex flex-col justify-center text-center md:w-2/3 my-5 items-center">
-          <h2 className="text-4xl lg:text-5xl mb-12">
+          <h2 className="text-3xl md:text-5xl mb-12">
             Do you have any feedback for us?
           </h2>
           <div className="flex justify-center w-full">
@@ -25,13 +25,14 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-between items-start text-xl my-20">
+        <div id="ourstory" className="flex flex-col items-center md:flex-row md:items-start justify-between text-xl my-20">
           <img
-            className="w-24 md:w-44 h-fit mt-2"
+            className="w-24 mb-10 md:w-44 h-fit mt-2"
             src={IMAGES?.app_logo}
             alt="logo - A crescent moon like arc engulfing the half of capital case alphabet R"
           />
-          <p className="ml-12">
+          <p
+          className="md:ml-12">
             "We're a dynamic team hailing from diverse corners of the globe,
             united by a passion for revolutionizing the job search experience.
             Think of us as the trailblazers of career advancement, blending
@@ -46,11 +47,11 @@ function Footer() {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row w-full max-w-2xl justify-between text-lg mb-20">
+        <div className="flex w-full max-w-2xl justify-between text-lg mb-20">
           <div>
             <h3 className="text-xl leading-10">CAREER TOOLS</h3>
             <ul>
-             {CAREER_TOOLS_LIST.map((tool) => <li className="leading-10">{tool}</li>)}
+             {CAREER_TOOLS_LIST.map((tool) => <li className="leading-10" key={tool}>{tool}</li>)}
             </ul>
           </div>
           <div>

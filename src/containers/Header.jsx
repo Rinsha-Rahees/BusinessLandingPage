@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MenuItems from "../utils/MenuItems";
 import IMAGES from "../images/Images";
+import { MENU_ITEMS } from "../utils/Constants";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,7 +27,7 @@ function Header() {
 
       <div className="hidden lg:flex">
         <ul className="flex items-center tracking-wider text-gray-500 text-xl font-semibold">
-          <MenuItems />
+        {MENU_ITEMS.map((item) => <MenuItems key={item?.hrefId} hrefId={item?.hrefId} title={item?.title}/>)}
           <button className="py-4 px-10 text-base font-bold bg-[#200e32] text-white rounded-lg tracking-wider">
             Get Started
           </button>
@@ -45,10 +46,10 @@ function Header() {
             <img className="w-7" src={IMAGES?.close} alt="Menu Close Icon" />
           </button>
           <ul className="flex flex-col items-start text-xl font-semibold">
-            <MenuItems />
-            <button className="py-4 px-10 mt-6 text-base font-bold bg-[#200e32] text-white rounded-lg tracking-wider">
-              Get Started
-            </button>
+          {MENU_ITEMS.map((item) => <MenuItems key={item?.hrefId} hrefId={item?.hrefId} title={item?.title}/>)}
+          <button className="py-4 px-10 mt-5 text-base font-bold bg-[#200e32] text-white rounded-lg tracking-wider">
+            Get Started
+          </button>
           </ul>
         </div>
       )}

@@ -1,9 +1,9 @@
 
 
 export const MENU_ITEMS = [
-  "Home",
-  "Features",
-  "Our Story"
+  {hrefId: "#home", title: "Home"},
+  {hrefId: "#features", title: "Features"},
+  {hrefId: "#ourstory", title: "Our Story"}
 ];
 
 

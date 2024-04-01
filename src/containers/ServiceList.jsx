@@ -8,7 +8,7 @@ function ServiceList() {
       <div className="grid grid-cols-1 sm:grid-cols-2 w-full py-4 text-xl lg:text-2xl">
         {SERVICES.map((item) => {
           return (
-            <div className="flex flex-col">
+            <div className="flex flex-col" key={item}>
               <h3 className="flex justify-center w-full">{item}</h3>
               <hr className="border-1 border-black w-full my-5" />
             </div>
